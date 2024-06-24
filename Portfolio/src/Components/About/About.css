@@ -1,0 +1,163 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.dash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.dash1 {
+  width: 70px;
+  height: 1px;
+  background-color: rgb(252, 71, 240);
+}
+
+.dash2 {
+  width: 70px;
+  height: 2px;
+  background-color: orange;
+}
+
+.aboutTitle h1 {
+  padding: 0px 30px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.aboutSections {
+  display: flex;
+  gap: 60px;
+  width: 80rem;
+  margin: 0 auto;
+}
+
+.aboutRight {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.aboutPara {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(161, 155, 155);
+}
+
+.aboutLeft img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+.aboutDetails{
+  width: 100%;
+}
+table {
+  width: 100%;
+  padding: 8px;
+}
+
+td,
+th {
+  text-align: left;
+  padding-bottom: 6px;
+  font-size: 20px;
+}
+
+td {
+  color: rgb(161, 155, 155);
+}
+
+.resumeDown {
+  display: block;
+  width: 150px;
+  padding: 18px 10px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #ffbd39;
+  color: black;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.resumeDown a,
+.resumeDown a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width:786px){
+  .about, .aboutSections{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    gap: 20px;
+    width: 100%;
+  }
+  .aboutTitle h1 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .aboutLeft img {
+    display: none;
+  }
+  .aboutPara{
+    margin: 0 auto;
+    gap: 5px;
+  }
+  .aboutPara p{
+    text-wrap: wrap;
+    padding: 10px;
+    font-size: 18px;
+    margin: 0px 50px;
+    line-height: 25px;
+  }
+  .aboutDetails{
+    width: 100%;
+    
+  }
+  table{
+    width: 85%;
+    margin: 0 auto;
+  }
+  td, th{
+    font-size: 18px;
+  }
+  .resumeDown{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 0 60px;
+  }
+}
+@media screen and (max-width:568px){
+  .aboutPara p{
+    text-wrap: wrap;
+    padding: 10px;
+    font-size: 16px;
+    margin: 0px 150px;
+    line-height: 22px;
+  }
+  table{
+    width: 50%;
+    margin: 0 auto;
+  }
+  td, th{
+    font-size: 16px;
+  }
+  .resumeDown{
+    margin: 0 170px;
+  }
+}
+
