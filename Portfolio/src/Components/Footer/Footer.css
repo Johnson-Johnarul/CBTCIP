@@ -68,10 +68,6 @@
 .footer-email-input:hover{
   border: 2px solid white;
 }
-.footer-subscribe:hover{
-  transform: scale(1.05);
-  transition: 0.3s;
-}
 @media screen and (max-width:1024px){
   .footer-email-input{
     padding: 10px 15px;
