@@ -173,7 +173,7 @@
 
 @media screen and (max-width:450px){
   .contact-heading{
-    margin-left: -60px;
+    margin-left: 40px;
   }
   .contact-left p{
     width: 95%;
